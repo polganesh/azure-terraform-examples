@@ -1,5 +1,5 @@
 module resource_manager{
-	source="git::https://github.com/polganesh/azure-terraform-modules.git?ref=0.1.2v//resource-group"
+	source="git::https://github.com/polganesh/azure-terraform-modules.git?ref=0.1.3v//resource-group"
 	location_id="euNorth"
 	location="northeurope"
 	environment="dev"
@@ -9,5 +9,5 @@ module resource_manager{
 	build_date="20181112"
 	maintenance_day="sun"
 	maintenance_time="0030"
-	resource_group_seq_id="001"
+	seq_id="001"
 }
